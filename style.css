@@ -1,0 +1,13 @@
+.left-navbar{
+    width: 20%;
+    background-color: black;
+}
+
+.main-container{
+    background-color: #181818;
+}
+
+.player{
+    background-color: #282828;
+    height: 10vh;
+}
