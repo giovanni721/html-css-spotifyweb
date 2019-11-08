@@ -1,24 +1,50 @@
+*{
+    font-family: 'Raleway:700', sans-serif;
+}
+
 .left-navbar{
     width: 15%;
     background-color: black;
     padding-left: 2%;
+    padding-right: 2%;
+    float: left;
 }
 
 .main-container{
     background-color: #181818;
     width: 85%;
+    float: left;
+}
+
+.main-nav-container{
+    width: 60%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.main-content-container{
+    width: 95%;
+    margin: auto;
 }
 
 .player{
     background-color: #282828;
-    height: 5%;
+    height: 5vh;
     display: flex;
     align-items: flex-end;
+}
+
+p{
+    color: lightgrey;
 }
 
 section div img{
     width: 70%;
     margin:10% 0;
+}
+
+section div ul li{
+    margin-bottom: 10%;
 }
 
 .link{
@@ -30,4 +56,33 @@ section div img{
 .link:hover{
     text-decoration: white;
     color: white;
+}
+
+.icons{
+    font-size: 25px;
+}
+
+.borderfooter{
+    border-bottom: 1px solid grey;
+}
+
+.main-navbar{
+    color: lightgrey;
+    font-size: 13px;
+    margin-right: 20px;
+
+}
+
+.playlist-titles{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.playlist-image{
+    width: 20%;
+}
+
+.subtitle-playlist{
+    text-align: center;
 }
